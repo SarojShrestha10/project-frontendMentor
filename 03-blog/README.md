@@ -24,7 +24,7 @@ Users should be able to:
 
 ![](./img/03-demo.png)
 
-When we hover over the interactive elements
+When we hover over the interactive elements <br>
 ![](./img/03-demo-active-state.png)
 
 ## My process
