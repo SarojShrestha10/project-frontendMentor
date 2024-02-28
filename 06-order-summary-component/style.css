@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(224, 23%, 55%);
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+h2,
+h4 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+main {
+  width: 60%;
+  margin: 100px auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1.5em;
+  text-align: center;
+}
+.img-section {
+  margin-bottom: 2em;
+}
+.img-section img {
+  width: 100%;
+  border-radius: 1.5em 1.5em 0 0;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+h2 + p,
+.annualplan-box,
+.proceed-btn,
+.cancel-btn {
+  width: 70%;
+  margin: 0 auto;
+}
+h2 + p {
+  color: hsl(224, 23%, 55%);
+}
+.content-section {
+  padding-bottom: 3em;
+}
+.annualplan-box {
+  background-color: hsl(228, 16%, 94%);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em;
+  border-radius: 1em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.annual-plan {
+  display: flex;
+  gap: 0.5em;
+}
+.annual h4 {
+  margin-bottom: 0.5em;
+}
+.annual span {
+  color: hsl(224, 23%, 55%);
+}
+.changeplan-btn {
+  text-decoration: underline;
+  font-weight: 700;
+  opacity: 0.9;
+  transition: opacity 0.15s, text-decoration 0.15s;
+}
+.changeplan-btn:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+.proceed-btn {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  padding: 1em 0;
+  margin-bottom: 1.5em;
+  border-radius: 0.5em;
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+
+  transition: opacity 0.15s;
+}
+.proceed-btn:hover {
+  opacity: 0.8;
+}
+.cancel-btn {
+  color: hsl(224, 23%, 55%);
+  display: block;
+  font-weight: 700;
+}
+.cancel-btn:hover {
+  color: rgba(44, 43, 43, 0.918);
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 98%;
+    margin: 1em auto;
+  }
+}
