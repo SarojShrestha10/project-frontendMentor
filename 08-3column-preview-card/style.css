@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  font-size: 2rem;
+  text-align: center;
+}
+main {
+  max-width: 70%;
+  margin: 5em auto;
+  text-align: left;
+  display: flex;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 4rem;
+  color: hsl(0, 0%, 95%);
+}
+main a {
+  text-decoration: none;
+  padding: 0.9em;
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  border-radius: 2em;
+}
+main img {
+  max-width: 60px;
+}
+.padding {
+  padding: 3em;
+}
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.first {
+  background-color: hsl(31, 77%, 52%);
+}
+.first a {
+  color: hsl(31, 77%, 52%);
+}
+.first a:hover {
+  border: 0.1em solid hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+.second {
+  background-color: hsl(184, 100%, 22%);
+}
+.second a {
+  color: hsl(184, 100%, 22%);
+}
+.second a:hover {
+  border: 0.1em solid hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+.third {
+  background-color: hsl(179, 100%, 13%);
+}
+.third a {
+  color: hsl(179, 100%, 13%);
+}
+.third a:hover {
+  border: 0.1em solid hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
